@@ -1,10 +1,29 @@
-<p>student works!</p>
+<h2>Students</h2>
 <p *ngIf="!students"><em>Loading...</em></p>
 
+<div *ngIf="selectedStudent">
+  <h3>Selected: {{selectedStudent.firstName | uppercase}} , {{selectedStudent.lastName}} Details</h3>
+  <div><span>Student Id: </span>{{selectedStudent.personId}}</div>
+  <div>
+    <label>
+      First Name:
+      <input [(ngModel)]="selectedStudent.firstName" placeholder="FirstName" />
+    </label>
+  </div>
+  <div>
+    <label>
+      Last Name:
+      <input [(ngModel)]="selectedStudent.lastName" placeholder="LastName" />
+    </label>
+  </div>
+</div>
+
+
 <ul class="heroes">
-  <li *ngFor="let student of students">
+  <li *ngFor="let student of students" (click)="onSelect(student)"  [class.selected]="student === selectedStudent">
     <span class="badge">{{student.personId}}</span> {{student.firstName}}, {{student.lastName}}
   </li>
 </ul>
+
 
 

@@ -9,6 +9,7 @@ import { StudentService } from '../student.service';
 })
 export class StudentComponent implements OnInit {
 
+  selectedStudent: Person;
   students: Person[];
 
   constructor(private studentService: StudentService) { }
@@ -23,6 +24,10 @@ export class StudentComponent implements OnInit {
         }, error => console.error(error));
 
      
+    }
+  
+    onSelect(student: Person): void {
+        this.selectedStudent = student;
     }
 
 }
