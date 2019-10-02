@@ -18,7 +18,11 @@ export class StudentComponent implements OnInit {
   }
     getStudents(): void {
         this.studentService.getStudents()
-            .subscribe(students => this.students = students);
+          .subscribe(result => {
+              this.students = result;
+        }, error => console.error(error));
+
+     
     }
 
 }
