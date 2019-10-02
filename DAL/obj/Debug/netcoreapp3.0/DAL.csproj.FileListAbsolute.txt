@@ -1,0 +1,10 @@
+C:\Users\trisha\source\repos\SchoolApp\DAL\bin\Debug\netcoreapp3.0\DAL.deps.json
+C:\Users\trisha\source\repos\SchoolApp\DAL\bin\Debug\netcoreapp3.0\DAL.runtimeconfig.json
+C:\Users\trisha\source\repos\SchoolApp\DAL\bin\Debug\netcoreapp3.0\DAL.runtimeconfig.dev.json
+C:\Users\trisha\source\repos\SchoolApp\DAL\bin\Debug\netcoreapp3.0\DAL.dll
+C:\Users\trisha\source\repos\SchoolApp\DAL\obj\Debug\netcoreapp3.0\DAL.csprojAssemblyReference.cache
+C:\Users\trisha\source\repos\SchoolApp\DAL\obj\Debug\netcoreapp3.0\DAL.AssemblyInfoInputs.cache
+C:\Users\trisha\source\repos\SchoolApp\DAL\obj\Debug\netcoreapp3.0\DAL.AssemblyInfo.cs
+C:\Users\trisha\source\repos\SchoolApp\DAL\bin\Debug\netcoreapp3.0\DAL.pdb
+C:\Users\trisha\source\repos\SchoolApp\DAL\obj\Debug\netcoreapp3.0\DAL.dll
+C:\Users\trisha\source\repos\SchoolApp\DAL\obj\Debug\netcoreapp3.0\DAL.pdb

@@ -1,0 +1,8 @@
+<p>student works!</p>
+<p *ngIf="!students"><em>Loading...</em></p>
+
+<ul class="heroes">
+  <li *ngFor="let student of students">
+    <span class="badge">{{student.PersonId}}</span> {{student.PersonId}}
+  </li>
+</ul>
